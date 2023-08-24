@@ -13,4 +13,9 @@ router.get('/about', (req, res) => {
 router.get('/edit', (req, res) => {
     res.render('edit.hbs')
 });
+
+router.post('/tasks/add', (req, res) => {
+    res.send('saved')
+})
+
 export default router;

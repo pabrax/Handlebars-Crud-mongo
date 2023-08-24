@@ -2,8 +2,11 @@ import express from "express";
 import { engine } from "express-handlebars";
 import indexRoutes from "./routes/index.routes.js";
 import path from "path";
+import morgan from "morgan";
 
 const app = express();
+
+app.use(morgan('dev'));
 
 app.set("views", path.join(__dirname, "views"));
 

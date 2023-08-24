@@ -1,3 +1,19 @@
-<h1>hola mundo</h1>
+<form action="/tasks/add" method="post">
 
-<p>parrafo para el index</p>
+  <div>
+    <label for="title">white a title</label>
+    <input type="text" name="title" placeholder="title" id="title" />
+  </div>
+
+  <div>
+    <label for="description">description</label>
+    <textarea
+      name="description"
+      placeholder="description"
+      id="description"
+    ></textarea>
+  </div>
+
+<button>add</button>
+
+</form>
