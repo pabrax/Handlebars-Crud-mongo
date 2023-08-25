@@ -6,21 +6,24 @@ import morgan from "morgan";
 
 const app = express();
 
-app.use(morgan('dev'));
-
 app.set("views", path.join(__dirname, "views"));
 
 app.engine(
   ".hbs",
-  engine ({
+  engine({
     layoutsDir: path.join(app.get("views"), "layouts"),
     defaultLayout: "main",
     extname: ".hbs",
   })
 );
+app.set("view engine", ".hbs");
 
-app.set('view engine', '.hbs')
+// middlewares
+app.use(morgan("dev"));
+app.use(express.urlencoded({ extended: false }));
 
+
+// Routes
 app.use(indexRoutes);
 
 export default app;

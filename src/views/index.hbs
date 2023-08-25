@@ -1,19 +1,5 @@
-<form action="/tasks/add" method="post">
 
-  <div>
-    <label for="title">white a title</label>
-    <input type="text" name="title" placeholder="title" id="title" />
-  </div>
+{{> tasks/taskForm }}
 
-  <div>
-    <label for="description">description</label>
-    <textarea
-      name="description"
-      placeholder="description"
-      id="description"
-    ></textarea>
-  </div>
+{{> tasks/taskTable }}
 
-<button>add</button>
-
-</form>
