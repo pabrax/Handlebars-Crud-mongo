@@ -1,11 +1,11 @@
-# Aplicación MVC en Node.js con Express y Handlebars
+# API en Node.js con MongoDB y Handlebars para CRUD de Tareas
 
 Esta es una aplicación de ejemplo que demuestra cómo construir una aplicación MVC (Modelo-Vista-Controlador) utilizando Node.js, Express y Handlebars.
 
 ## Instalación
 
-1. Clona este repositorio: `git clone https://github.com/tu-usuario/tu-repositorio.git`
-2. Ve al directorio del proyecto: `cd tu-repositorio`
+1. Clona este repositorio: `git clone https://github.com/pabrax/f-mongo-node-crud.git`
+2. Ve al directorio del proyecto: `cd f-mongo-node-crud`
 3. Instala las dependencias: `npm install`
 
 ## Configuración
