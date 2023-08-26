@@ -17,7 +17,7 @@ Esta es una aplicación de ejemplo que demuestra cómo construir una aplicación
 
 Asegúrate de configurar las siguientes variables de entorno antes de ejecutar la aplicación.
 
-1. `MONGODBURI`: Esta variable debe contener la URI de conexión a la base de datos MongoDB. Proporciona la dirección y las credenciales necesarias para que la aplicación se conecte a la base de datos. Asegúrate de incluir el protocolo, el nombre de usuario, la contraseña, la dirección del servidor y el puerto, si es necesario. Ejemplo: `mongodb://usuario:contraseña@localhost:27017/nombre-basedatos`
+1. `MONGODB_URI`: Esta variable debe contener la URI de conexión a la base de datos MongoDB. Proporciona la dirección y las credenciales necesarias para que la aplicación se conecte a la base de datos. Asegúrate de incluir el protocolo, el nombre de usuario, la contraseña, la dirección del servidor y el puerto, si es necesario. Ejemplo: `mongodb://usuario:contraseña@localhost:27017/nombre-basedatos`
 
 2. `PORT`: Esta variable define el puerto en el que la aplicación Express se ejecutará. Puedes establecer este valor para indicar en qué puerto la aplicación escuchará las solicitudes entrantes. Asegúrate de que el puerto seleccionado esté disponible y no esté en uso por otros servicios. Ejemplo: `3000`
 
