@@ -6,18 +6,13 @@ Este proyecto fue pensado a modo de aprendizaje y repaso.
 
 ### Instalación
 
-1. Clona este repositorio: `git clone https://github.com/pabrax/f-mongo-node-crud.git`
-2. Ve al directorio del proyecto: `cd f-mongo-node-crud`
+1. Clona este repositorio: `git clone https://github.com/pabrax/Handlebars-Crud-mongo.git`
+2. Ve al directorio del proyecto: `cd Handlebars-Crud-mongo`
 3. Instala las dependencias: `npm install`
 
 ### Uso
 
 para ejecutar la aplicacion usa `npm run dev`
-
-### Configuración
-
-1. Crea un archivo `.env` en el directorio raíz basado en el archivo `.env.example`.
-2. Completa las variables de entorno en el archivo `.env` con la configuración adecuada.
 
 ### variables de entorno
 
